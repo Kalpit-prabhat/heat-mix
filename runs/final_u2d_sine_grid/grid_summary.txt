@@ -1,0 +1,5 @@
+grid search on u2d_sine.yaml: 115 runs, 0 failed, loss l2_flow
+  grid_L0      96 ok   best #71 l2_flow=0.1585  lam=9.868, a=1  heater {'heat1_s': 0, 'heat1_l': 0.3, 'T_heater': 357.14331917704766, 'T_bulk': 345.15, 'power_clamped': False}
+  grid_Z1      11 ok   best #100 l2_flow=0.1137  lam=11.1, a=1  heater {'heat1_s': 0, 'heat1_l': 0.3, 'T_heater': 357.18033789662485, 'T_bulk': 345.15000000000003, 'power_clamped': False}
+  grid_Z2       5 ok   best #109 l2_flow=0.1288  lam=11.1, a=0.9643  heater {'heat1_s': 0, 'heat1_l': 0.3, 'T_heater': 357.26191561092344, 'T_bulk': 345.15000000000015, 'power_clamped': False}
+  fine_top      3 ok   best #112 l2_flow=0.1203  lam=11.1, a=1  heater {'heat1_s': 0, 'heat1_l': 0.3, 'T_heater': 357.2292150949794, 'T_bulk': 345.14999999999986, 'power_clamped': False}

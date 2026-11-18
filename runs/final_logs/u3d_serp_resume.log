@@ -1,0 +1,60 @@
+results -> runs/final_u3d_serp
+[04:47:16] resuming: 30 evaluations found in runs/final_u3d_serp/history.jsonl
+[04:47:16] GP length scales (smaller = more influential): lam=0.19, A=0.18
+[04:47:16] stage 3/4: re-running 2 best coarse designs on the fine mesh
+[04:47:16] starting worker 0 (COMSOL port 2070, backend engine)
+
+MATLAB is now connected to a COMSOL Multiphysics Server at localhost:2070
+
+Run the commands below to access the COMSOL ModelUtil commands:
+import com.comsol.model.util.*
+[04:47:22] starting worker 1 (COMSOL port 2071, backend engine)
+
+MATLAB is now connected to a COMSOL Multiphysics Server at localhost:2071
+
+Run the commands below to access the COMSOL ModelUtil commands:
+import com.comsol.model.util.*
+[04:47:30] starting worker 2 (COMSOL port 2072, backend engine)
+
+MATLAB is now connected to a COMSOL Multiphysics Server at localhost:2072
+
+Run the commands below to access the COMSOL ModelUtil commands:
+import com.comsol.model.util.*
+[04:47:37] starting worker 3 (COMSOL port 2073, backend engine)
+
+MATLAB is now connected to a COMSOL Multiphysics Server at localhost:2073
+
+Run the commands below to access the COMSOL ModelUtil commands:
+import com.comsol.model.util.*
+[04:47:52] sine_channel: geometry ok (path length 47.4 mm, bend radius 1.55 mm, joint turns 71 / 71 deg)
+[04:47:53] sine_channel: geometry ok (path length 43.9 mm, bend radius 1.55 mm, joint turns 67 / 67 deg)
+[04:48:00] sine_channel: mesh: 221088 elements (min quality 0.223)
+[04:48:00] sine_channel: solving flow then heat (cold start) ...
+[04:48:01] sine_channel: mesh: 207312 elements (min quality 0.256)
+[04:48:01] sine_channel: solving flow then heat (cold start) ...
+[04:50:52] sine_channel: solved in 171.5 s
+[04:51:00] sine_channel: solved in 179.6 s
+[04:52:37] sine_channel: heater sweep: 10 heater windows in 102.2 s
+[04:52:37] sine_channel: done:outlet RMS(T - T_need) = 0.1346 K, bulk T rise 2.000 K, heater 0.822 W (x1.007), losses 0.00673 W, total 191.0 s
+[04:52:48] sine_channel: heater sweep: 10 heater windows in 105.6 s
+[04:52:48] sine_channel: done:outlet RMS(T - T_need) = 0.1173 K, bulk T rise 2.000 K, heater 0.822 W (x1.007), losses 0.0069 W, total 199.2 s
+[04:52:48] #30   fine_top  fine   l2_flow=0.06484  (linf=0.19 K)  P x1.01 T_heat=78.9C  t=293s  | lam=9.059, A=2.904  | best heater: heat_start=2, heat_len=4.8
+[04:52:48] #31   fine_top  fine   l2_flow=0.05465  (linf=0.173 K)  P x1.01 T_heat=73.7C  t=305s  | lam=9.092, A=3.333  | best heater: heat_start=2, heat_len=12
+[04:52:53] best (fine mesh, run #29): l2_flow = 0.02739 K
+[04:52:53]     lam          = 7.258 mm
+[04:52:53]     A            = 3.5 mm
+[04:52:53] re-solving the best design with field export for the plots ...
+
+MATLAB is now connected to a COMSOL Multiphysics Server at localhost:2070
+
+Run the commands below to access the COMSOL ModelUtil commands:
+import com.comsol.model.util.*
+[04:53:08] sine_channel: geometry ok (path length 62.1 mm, bend radius 1.55 mm, joint turns 83 / 83 deg)
+[04:53:14] sine_channel: mesh: 284592 elements (min quality 0.088)
+[04:53:14] sine_channel: solving flow then heat (cold start) ...
+[04:56:11] sine_channel: solved in 177.2 s
+[04:56:14] sine_channel: exporting field data ...
+[04:56:15] sine_channel: done:outlet RMS(T - T_need) = 0.05742 K, bulk T rise 2.000 K, heater 0.836 W (x1.025), losses 0.0215 W, total 192.7 s
+field data: runs/final_u3d_serp/fields/run0029_fine.json
+solved model: runs/final_u3d_serp/fields/run0029_fine.mph
+[04:56:18] field plots: runs/final_u3d_serp/fields/run0029_fine_maps.png, runs/final_u3d_serp/fields/run0029_fine_along_x.png, runs/final_u3d_serp/fields/run0029_fine_slices.png, runs/final_u3d_serp/fields/run0029_fine_outlet.png, runs/final_u3d_serp/fields/run0029_fine_slices_u.png, runs/final_u3d_serp/fields/run0029_fine_profile.png, runs/final_u3d_serp/fields/run0029_fine_summary.json

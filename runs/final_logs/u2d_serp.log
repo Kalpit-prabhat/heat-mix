@@ -1,0 +1,348 @@
+results -> runs/final_u2d_serp
+[02:19:59] stage 1/4: initial design, 12 coarse runs left
+[02:19:59] starting worker 0 (COMSOL port 2080, backend engine)
+
+MATLAB is now connected to a COMSOL Multiphysics Server at localhost:2080
+
+Run the commands below to access the COMSOL ModelUtil commands:
+import com.comsol.model.util.*
+[02:20:07] starting worker 1 (COMSOL port 2081, backend engine)
+
+MATLAB is now connected to a COMSOL Multiphysics Server at localhost:2081
+
+Run the commands below to access the COMSOL ModelUtil commands:
+import com.comsol.model.util.*
+[02:20:16] starting worker 2 (COMSOL port 2082, backend engine)
+
+MATLAB is now connected to a COMSOL Multiphysics Server at localhost:2082
+
+Run the commands below to access the COMSOL ModelUtil commands:
+import com.comsol.model.util.*
+[02:20:43] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm)
+[02:20:44] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm)
+[02:20:46] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm)
+[02:20:55] sine_split_2d: mesh: 12240 elements
+[02:20:57] sine_split_2d: mesh: 11568 elements
+[02:20:59] sine_split_2d: mesh: 23016 elements
+[02:21:06] sine_split_2d: solved in 10.8 s
+[02:21:08] sine_split_2d: solved in 10.7 s
+[02:21:17] sine_split_2d: solved in 17.5 s
+[02:21:38] sine_split_2d: heater sweep: 10 positions in 28.4 s
+[02:21:38] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need -1.14e-10 mK, heaters 75.99 / 72.00 C, heater 0.839 W, losses 0.0234 W, total 45.2 s
+[02:21:40] sine_split_2d: heater sweep: 10 positions in 29.3 s
+[02:21:40] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need -1.71e-10 mK, heaters 76.40 / 72.00 C, heater 0.838 W, losses 0.022 W, total 46.3 s
+[02:21:49] sine_split_2d: heater sweep: 10 positions in 30.3 s
+[02:21:49] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need -1.71e-10 mK, heaters 72.88 / 72.00 C, heater 0.859 W, losses 0.0431 W, total 54.7 s
+[02:21:49] #0    init      coarse l2_flow=0.3909  (linf=0.801 K, branch dT=2.27e-13 K, dQ=0.00%)  P x1.03 T_heat=88.8C  t=76s  | lam=8.706, A=0.6464  | best heater: heat1_s=0, heat1_l=0.2
+[02:21:49] #1    init      coarse l2_flow=0.2787  (linf=0.543 K, branch dT=0.0224 K, dQ=0.00%)  P x1.03 T_heat=99.0C  t=74s  | lam=19.79, A=3.446  | best heater: heat1_s=0, heat1_l=0.1
+[02:21:49] #2    init      coarse l2_flow=0.02239  (linf=0.0721 K, branch dT=1.71e-13 K, dQ=0.00%)  P x1.05 T_heat=81.9C  t=85s  | lam=6.746, A=3.484  | best heater: heat1_s=0, heat1_l=0.2
+[02:21:52] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm) [reused model]
+[02:21:52] sine_split_2d: mesh: 11112 elements
+[02:21:52] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm) [reused model]
+[02:21:52] sine_split_2d: mesh: 11424 elements
+[02:21:52] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm) [reused model]
+[02:21:52] sine_split_2d: mesh: 13416 elements
+[02:21:57] sine_split_2d: solved in 5.1 s
+[02:21:57] sine_split_2d: solved in 5.5 s
+[02:22:00] sine_split_2d: solved in 7.4 s
+[02:22:22] sine_split_2d: heater sweep: 10 positions in 24.0 s
+[02:22:22] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need -1.14e-10 mK, heaters 76.27 / 72.00 C, heater 0.838 W, losses 0.0219 W, total 9.0 s
+[02:22:23] sine_split_2d: heater sweep: 10 positions in 24.3 s
+[02:22:23] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need 0 mK, heaters 76.35 / 72.00 C, heater 0.837 W, losses 0.0212 W, total 9.3 s
+[02:22:26] sine_split_2d: heater sweep: 10 positions in 25.2 s
+[02:22:26] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need 0 mK, heaters 75.26 / 72.00 C, heater 0.841 W, losses 0.0256 W, total 11.7 s
+[02:22:26] #3    init      coarse l2_flow=0.383  (linf=0.6 K, branch dT=1.71e-13 K, dQ=0.00%)  P x1.03 T_heat=98.2C  t=34s  | lam=19.74, A=0.09216  | best heater: heat1_s=0, heat1_l=0.1
+[02:22:26] #4    init      coarse l2_flow=0.08964  (linf=0.134 K, branch dT=0 K, dQ=0.00%)  P x1.03 T_heat=83.4C  t=37s  | lam=11.51, A=2.377  | best heater: heat1_s=0, heat1_l=0.3
+[02:22:26] #5    init      coarse l2_flow=0.3583  (linf=0.648 K, branch dT=0.0206 K, dQ=0.00%)  P x1.03 T_heat=99.0C  t=33s  | lam=19.2, A=1.781  | best heater: heat1_s=0, heat1_l=0.1
+[02:22:29] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm) [reused model]
+[02:22:29] sine_split_2d: mesh: 11472 elements
+[02:22:30] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm) [reused model]
+[02:22:30] sine_split_2d: mesh: 17424 elements
+[02:22:34] sine_split_2d: solved in 4.7 s
+[02:22:36] sine_split_2d: solved in 6.7 s
+[02:22:55] sine_split_2d: heater sweep: 10 positions in 19.9 s
+[02:22:55] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need 1.14e-10 mK, heaters 76.31 / 72.00 C, heater 0.837 W, losses 0.0218 W, total 7.4 s
+[02:22:58] sine_split_2d: heater sweep: 10 positions in 20.9 s
+[02:22:58] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need 0 mK, heaters 73.80 / 72.00 C, heater 0.849 W, losses 0.033 W, total 10.0 s
+[02:22:58] #6    init      coarse FAILED: Error using channel_walls>fillet (line 328)  | lam=6.687, A=1.945
+[02:22:58] #7    init      coarse l2_flow=0.3733  (linf=0.746 K, branch dT=0.0127 K, dQ=0.00%)  P x1.03 T_heat=99.0C  t=27s  | lam=13.49, A=0.8964  | best heater: heat1_s=0, heat1_l=0.1
+[02:22:58] #8    init      coarse l2_flow=0.04847  (linf=0.102 K, branch dT=1.71e-13 K, dQ=0.00%)  P x1.04 T_heat=74.9C  t=31s  | lam=9.925, A=3.462  | best heater: heat1_s=0, heat1_l=0.7
+[02:23:01] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm) [reused model]
+[02:23:01] sine_split_2d: mesh: 11160 elements
+[02:23:01] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm) [reused model]
+[02:23:01] sine_split_2d: mesh: 11280 elements
+[02:23:02] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm)
+[02:23:05] sine_split_2d: solved in 4.6 s
+[02:23:06] sine_split_2d: mesh: 13536 elements
+[02:23:06] sine_split_2d: solved in 5.0 s
+[02:23:12] sine_split_2d: solved in 5.6 s
+[02:23:29] sine_split_2d: heater sweep: 10 positions in 22.4 s
+[02:23:29] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need 1.14e-10 mK, heaters 76.35 / 72.00 C, heater 0.837 W, losses 0.0212 W, total 8.2 s
+[02:23:31] sine_split_2d: heater sweep: 10 positions in 23.4 s
+[02:23:31] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need 1.14e-10 mK, heaters 76.35 / 72.00 C, heater 0.837 W, losses 0.0212 W, total 9.3 s
+[02:23:36] sine_split_2d: heater sweep: 10 positions in 22.9 s
+[02:23:36] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need 5.68e-11 mK, heaters 75.44 / 72.00 C, heater 0.842 W, losses 0.0258 W, total 14.9 s
+[02:23:36] #9    init      coarse l2_flow=0.1911  (linf=0.405 K, branch dT=1.14e-13 K, dQ=0.00%)  P x1.03 T_heat=83.0C  t=38s  | lam=14, A=3.293  | best heater: heat1_s=0, heat1_l=0.3
+[02:23:36] #10   init      coarse l2_flow=0.3832  (linf=0.616 K, branch dT=1.14e-13 K, dQ=0.00%)  P x1.03 T_heat=98.2C  t=33s  | lam=6.604, A=0.02054  | best heater: heat1_s=0, heat1_l=0.1
+[02:23:36] #11   init      coarse l2_flow=0.383  (linf=0.604 K, branch dT=2.27e-13 K, dQ=0.00%)  P x1.03 T_heat=98.2C  t=31s  | lam=11.36, A=0.0225  | best heater: heat1_s=0, heat1_l=0.1
+[02:23:37] stage 2/4: coarse-mesh Bayesian optimization, 38 runs left
+[02:23:40] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm) [reused model]
+[02:23:40] sine_split_2d: mesh: 14040 elements
+[02:23:41] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm) [reused model]
+[02:23:41] sine_split_2d: mesh: 23352 elements
+[02:23:46] sine_split_2d: solved in 6.2 s
+[02:23:50] sine_split_2d: solved in 8.9 s
+[02:24:10] sine_split_2d: heater sweep: 10 positions in 22.8 s
+[02:24:10] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need 0 mK, heaters 74.94 / 72.00 C, heater 0.843 W, losses 0.0267 W, total 9.2 s
+[02:24:15] sine_split_2d: heater sweep: 10 positions in 24.4 s
+[02:24:15] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need 1.14e-10 mK, heaters 72.85 / 72.00 C, heater 0.86 W, losses 0.0436 W, total 12.9 s
+[02:24:15] #12   coarse_bo coarse l2_flow=0.02378  (linf=0.0647 K, branch dT=1.71e-13 K, dQ=0.00%)  P x1.05 T_heat=74.0C  t=37s  | lam=6.5, A=3.5  | best heater: heat1_s=0, heat1_l=0.6
+[02:24:15] #13   coarse_bo coarse FAILED: Error using channel_walls>fillet (line 328)  | lam=6.5, A=2.752
+[02:24:15] #14   coarse_bo coarse l2_flow=0.05844  (linf=0.0945 K, branch dT=1.71e-13 K, dQ=0.00%)  P x1.03 T_heat=82.7C  t=32s  | lam=11.54, A=2.713  | best heater: heat1_s=0, heat1_l=0.3
+[02:24:19] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm) [reused model]
+[02:24:19] sine_split_2d: mesh: 11784 elements
+[02:24:20] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm) [reused model]
+[02:24:20] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm)
+[02:24:20] sine_split_2d: mesh: 20688 elements
+[02:24:24] sine_split_2d: solved in 4.9 s
+[02:24:26] sine_split_2d: mesh: 12480 elements
+[02:24:30] sine_split_2d: solved in 10.0 s
+[02:24:32] sine_split_2d: solved in 6.3 s
+[02:24:50] sine_split_2d: heater sweep: 10 positions in 24.6 s
+[02:24:50] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need 5.68e-11 mK, heaters 76.16 / 72.00 C, heater 0.838 W, losses 0.0225 W, total 8.0 s
+[02:24:55] sine_split_2d: heater sweep: 10 positions in 21.7 s
+[02:24:55] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need 1.14e-10 mK, heaters 75.98 / 72.00 C, heater 0.839 W, losses 0.0238 W, total 16.0 s
+[02:24:56] sine_split_2d: heater sweep: 10 positions in 24.7 s
+[02:24:56] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need -5.68e-11 mK, heaters 73.13 / 72.00 C, heater 0.855 W, losses 0.0388 W, total 14.0 s
+[02:24:56] #15   coarse_bo coarse l2_flow=0.05799  (linf=0.0951 K, branch dT=5.68e-14 K, dQ=0.00%)  P x1.05 T_heat=73.8C  t=39s  | lam=7.489, A=3.5  | best heater: heat1_s=0, heat1_l=0.7
+[02:24:56] #16   coarse_bo coarse l2_flow=0.271  (linf=0.524 K, branch dT=0.0347 K, dQ=0.00%)  P x1.03 T_heat=99.0C(limit)  t=38s  | lam=16.75, A=2.594  | best heater: heat1_s=0, heat1_l=0.1
+[02:24:56] #17   coarse_bo coarse l2_flow=0.3231  (linf=0.596 K, branch dT=0.0153 K, dQ=0.00%)  P x1.03 T_heat=99.0C  t=33s  | lam=20, A=2.61  | best heater: heat1_s=0, heat1_l=0.1
+[02:24:59] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm) [reused model]
+[02:24:59] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm) [reused model]
+[02:24:59] sine_split_2d: mesh: 15360 elements
+[02:24:59] sine_split_2d: mesh: 15096 elements
+[02:25:00] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm) [reused model]
+[02:25:00] sine_split_2d: mesh: 16200 elements
+[02:25:06] sine_split_2d: solved in 6.8 s
+[02:25:07] sine_split_2d: solved in 7.4 s
+[02:25:10] sine_split_2d: solved in 9.5 s
+[02:25:31] sine_split_2d: heater sweep: 10 positions in 23.5 s
+[02:25:31] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need 1.14e-10 mK, heaters 74.15 / 72.00 C, heater 0.845 W, losses 0.0291 W, total 10.5 s
+[02:25:31] sine_split_2d: heater sweep: 10 positions in 24.2 s
+[02:25:31] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need -5.68e-11 mK, heaters 74.48 / 72.00 C, heater 0.845 W, losses 0.0287 W, total 9.9 s
+[02:25:34] sine_split_2d: heater sweep: 10 positions in 23.8 s
+[02:25:34] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need -1.14e-10 mK, heaters 74.05 / 72.00 C, heater 0.846 W, losses 0.0306 W, total 13.2 s
+[02:25:34] #18   coarse_bo coarse l2_flow=0.04823  (linf=0.0785 K, branch dT=0 K, dQ=0.00%)  P x1.04 T_heat=77.1C  t=37s  | lam=10.15, A=3.031  | best heater: heat1_s=0, heat1_l=0.5
+[02:25:34] #19   coarse_bo coarse l2_flow=0.02713  (linf=0.0533 K, branch dT=5.68e-14 K, dQ=0.00%)  P x1.03 T_heat=81.5C  t=34s  | lam=11.02, A=3.19  | best heater: heat1_s=0, heat1_l=0.3
+[02:25:34] #20   coarse_bo coarse l2_flow=0.07714  (linf=0.168 K, branch dT=1.14e-13 K, dQ=0.00%)  P x1.04 T_heat=75.5C  t=34s  | lam=9.796, A=2.676  | best heater: heat1_s=0, heat1_l=0.7
+[02:25:39] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm) [reused model]
+[02:25:39] sine_split_2d: mesh: 15048 elements
+[02:25:39] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm) [reused model]
+[02:25:40] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm) [reused model]
+[02:25:40] sine_split_2d: mesh: 15624 elements
+[02:25:40] sine_split_2d: mesh: 23112 elements
+[02:25:47] sine_split_2d: solved in 7.3 s
+[02:25:48] sine_split_2d: solved in 8.5 s
+[02:25:50] sine_split_2d: solved in 10.1 s
+[02:26:11] sine_split_2d: heater sweep: 10 positions in 23.4 s
+[02:26:11] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need 1.14e-10 mK, heaters 74.39 / 72.00 C, heater 0.846 W, losses 0.0297 W, total 11.0 s
+[02:26:13] sine_split_2d: heater sweep: 10 positions in 24.3 s
+[02:26:13] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need 2.27e-10 mK, heaters 74.60 / 72.00 C, heater 0.845 W, losses 0.0286 W, total 12.0 s
+[02:26:15] sine_split_2d: heater sweep: 10 positions in 24.3 s
+[02:26:15] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need -1.14e-10 mK, heaters 72.88 / 72.00 C, heater 0.859 W, losses 0.0433 W, total 14.0 s
+[02:26:15] #21   coarse_bo coarse l2_flow=0.01797  (linf=0.0338 K, branch dT=1.71e-13 K, dQ=0.00%)  P x1.04 T_heat=81.3C  t=34s  | lam=11.3, A=3.5  | best heater: heat1_s=0, heat1_l=0.3
+[02:26:15] #22   coarse_bo coarse l2_flow=0.02236  (linf=0.0654 K, branch dT=5.68e-14 K, dQ=0.00%)  P x1.05 T_heat=81.6C  t=38s  | lam=6.714, A=3.5  | best heater: heat1_s=0, heat1_l=0.2
+[02:26:15] #23   coarse_bo coarse l2_flow=0.03697  (linf=0.0722 K, branch dT=0 K, dQ=0.00%)  P x1.03 T_heat=81.9C  t=36s  | lam=11.76, A=3.284  | best heater: heat1_s=0, heat1_l=0.3
+[02:26:19] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm) [reused model]
+[02:26:19] sine_split_2d: mesh: 15744 elements
+[02:26:20] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm) [reused model]
+[02:26:20] sine_split_2d: mesh: 12384 elements
+[02:26:20] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm) [reused model]
+[02:26:20] sine_split_2d: mesh: 12960 elements
+[02:26:25] sine_split_2d: solved in 5.5 s
+[02:26:26] sine_split_2d: solved in 6.6 s
+[02:26:27] sine_split_2d: solved in 6.3 s
+[02:26:49] sine_split_2d: heater sweep: 10 positions in 22.2 s
+[02:26:49] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need 0 mK, heaters 74.33 / 72.00 C, heater 0.846 W, losses 0.0299 W, total 9.4 s
+[02:26:51] sine_split_2d: heater sweep: 10 positions in 24.6 s
+[02:26:51] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need -5.68e-11 mK, heaters 76.09 / 72.00 C, heater 0.839 W, losses 0.0236 W, total 9.2 s
+[02:26:52] sine_split_2d: heater sweep: 10 positions in 24.4 s
+[02:26:52] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need 1.14e-10 mK, heaters 75.43 / 72.00 C, heater 0.84 W, losses 0.0246 W, total 10.4 s
+[02:26:52] #24   coarse_bo coarse l2_flow=0.02364  (linf=0.053 K, branch dT=0 K, dQ=0.00%)  P x1.04 T_heat=81.1C  t=32s  | lam=11, A=3.5  | best heater: heat1_s=0, heat1_l=0.3
+[02:26:52] #25   coarse_bo coarse l2_flow=0.1451  (linf=0.31 K, branch dT=1.14e-13 K, dQ=0.00%)  P x1.03 T_heat=84.0C  t=35s  | lam=9.856, A=1.658  | best heater: heat1_s=0, heat1_l=0.3
+[02:26:52] #26   coarse_bo coarse l2_flow=0.2219  (linf=0.395 K, branch dT=1.14e-13 K, dQ=0.00%)  P x1.03 T_heat=84.5C  t=34s  | lam=10.48, A=1.404  | best heater: heat1_s=0, heat1_l=0.3
+[02:26:56] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm) [reused model]
+[02:26:56] sine_split_2d: mesh: 15648 elements
+[02:26:56] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm) [reused model]
+[02:26:57] sine_split_2d: mesh: 15504 elements
+[02:26:57] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm) [reused model]
+[02:26:57] sine_split_2d: mesh: 23352 elements
+[02:27:03] sine_split_2d: solved in 6.4 s
+[02:27:04] sine_split_2d: solved in 8.1 s
+[02:27:09] sine_split_2d: solved in 11.7 s
+[02:27:33] sine_split_2d: heater sweep: 10 positions in 28.0 s
+[02:27:33] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need 2.27e-10 mK, heaters 74.39 / 72.00 C, heater 0.846 W, losses 0.0298 W, total 11.1 s
+[02:27:33] sine_split_2d: heater sweep: 10 positions in 29.5 s
+[02:27:33] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need 1.71e-10 mK, heaters 74.50 / 72.00 C, heater 0.845 W, losses 0.0295 W, total 10.0 s
+[02:27:38] sine_split_2d: heater sweep: 10 positions in 27.6 s
+[02:27:38] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need 0 mK, heaters 72.85 / 72.00 C, heater 0.86 W, losses 0.0436 W, total 16.1 s
+[02:27:38] #27   coarse_bo coarse l2_flow=0.01797  (linf=0.0317 K, branch dT=0 K, dQ=0.00%)  P x1.04 T_heat=81.2C  t=39s  | lam=11.26, A=3.5  | best heater: heat1_s=0, heat1_l=0.3
+[02:27:38] #28   coarse_bo coarse l2_flow=0.02378  (linf=0.0647 K, branch dT=1.71e-13 K, dQ=0.00%)  P x1.05 T_heat=74.0C  t=44s  | lam=6.5, A=3.5  | best heater: heat1_s=0, heat1_l=0.6
+[02:27:38] #29   coarse_bo coarse l2_flow=0.03123  (linf=0.0616 K, branch dT=1.14e-13 K, dQ=0.00%)  P x1.04 T_heat=81.6C  t=40s  | lam=11.77, A=3.5  | best heater: heat1_s=0, heat1_l=0.3
+[02:27:42] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm) [reused model]
+[02:27:42] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm) [reused model]
+[02:27:43] sine_split_2d: mesh: 16992 elements
+[02:27:43] sine_split_2d: mesh: 18096 elements
+[02:27:43] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm) [reused model]
+[02:27:43] sine_split_2d: mesh: 18288 elements
+[02:27:52] sine_split_2d: solved in 9.0 s
+[02:27:54] sine_split_2d: solved in 11.5 s
+[02:27:55] sine_split_2d: solved in 11.8 s
+[02:28:18] sine_split_2d: heater sweep: 10 positions in 23.1 s
+[02:28:18] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need -1.71e-10 mK, heaters 73.60 / 72.00 C, heater 0.848 W, losses 0.032 W, total 15.1 s
+[02:28:18] sine_split_2d: heater sweep: 10 positions in 25.1 s
+[02:28:18] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need 1.14e-10 mK, heaters 73.56 / 72.00 C, heater 0.85 W, losses 0.0343 W, total 13.1 s
+[02:28:21] sine_split_2d: heater sweep: 10 positions in 24.7 s
+[02:28:21] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need 1.14e-10 mK, heaters 73.48 / 72.00 C, heater 0.85 W, losses 0.0345 W, total 16.1 s
+[02:28:21] #30   coarse_bo coarse l2_flow=0.02823  (linf=0.0678 K, branch dT=1.14e-13 K, dQ=0.00%)  P x1.04 T_heat=75.1C  t=38s  | lam=8.806, A=3.5  | best heater: heat1_s=0, heat1_l=0.6
+[02:28:21] #31   coarse_bo coarse l2_flow=0.01401  (linf=0.0419 K, branch dT=0 K, dQ=0.00%)  P x1.04 T_heat=75.3C  t=41s  | lam=8.715, A=3.099  | best heater: heat1_s=0, heat1_l=0.6
+[02:28:21] #32   coarse_bo coarse l2_flow=0.01682  (linf=0.0565 K, branch dT=5.68e-14 K, dQ=0.00%)  P x1.04 T_heat=78.2C  t=38s  | lam=8.388, A=2.65  | best heater: heat1_s=0, heat1_l=0.4
+[02:28:27] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm) [reused model]
+[02:28:27] sine_split_2d: mesh: 15216 elements
+[02:28:27] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm) [reused model]
+[02:28:27] sine_split_2d: mesh: 15792 elements
+[02:28:27] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm) [reused model]
+[02:28:27] sine_split_2d: mesh: 17976 elements
+[02:28:37] sine_split_2d: solved in 9.6 s
+[02:28:37] sine_split_2d: solved in 9.6 s
+[02:28:38] sine_split_2d: solved in 10.6 s
+[02:29:01] sine_split_2d: heater sweep: 10 positions in 23.8 s
+[02:29:01] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need -1.14e-10 mK, heaters 74.00 / 72.00 C, heater 0.844 W, losses 0.0287 W, total 13.0 s
+[02:29:02] sine_split_2d: heater sweep: 10 positions in 23.9 s
+[02:29:02] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need 5.68e-11 mK, heaters 73.85 / 72.00 C, heater 0.846 W, losses 0.03 W, total 13.0 s
+[02:29:04] sine_split_2d: heater sweep: 10 positions in 25.2 s
+[02:29:04] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need 1.14e-10 mK, heaters 73.48 / 72.00 C, heater 0.85 W, losses 0.0339 W, total 14.2 s
+[02:29:04] #33   coarse_bo coarse l2_flow=0.02172  (linf=0.0591 K, branch dT=1.14e-13 K, dQ=0.00%)  P x1.04 T_heat=75.3C  t=39s  | lam=8.477, A=2.964  | best heater: heat1_s=0, heat1_l=0.6
+[02:29:04] #34   coarse_bo coarse l2_flow=0.02738  (linf=0.0537 K, branch dT=0 K, dQ=0.00%)  P x1.04 T_heat=75.7C  t=37s  | lam=8.736, A=2.695  | best heater: heat1_s=0, heat1_l=0.6
+[02:29:04] #35   coarse_bo coarse l2_flow=0.01232  (linf=0.0194 K, branch dT=5.68e-14 K, dQ=0.00%)  P x1.03 T_heat=76.3C  t=37s  | lam=8.611, A=2.156  | best heater: heat1_s=0, heat1_l=0.6
+[02:29:12] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm) [reused model]
+[02:29:12] sine_split_2d: mesh: 14304 elements
+[02:29:12] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm) [reused model]
+[02:29:12] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm) [reused model]
+[02:29:12] sine_split_2d: mesh: 15600 elements
+[02:29:12] sine_split_2d: mesh: 17040 elements
+[02:29:21] sine_split_2d: solved in 9.3 s
+[02:29:21] sine_split_2d: solved in 9.1 s
+[02:29:23] sine_split_2d: solved in 11.0 s
+[02:29:45] sine_split_2d: heater sweep: 10 positions in 22.4 s
+[02:29:45] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need -1.71e-10 mK, heaters 73.70 / 72.00 C, heater 0.848 W, losses 0.0323 W, total 13.9 s
+[02:29:46] sine_split_2d: heater sweep: 10 positions in 24.5 s
+[02:29:46] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need -5.68e-11 mK, heaters 74.28 / 72.00 C, heater 0.843 W, losses 0.0271 W, total 13.7 s
+[02:29:47] sine_split_2d: heater sweep: 10 positions in 22.6 s
+[02:29:47] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need 5.68e-11 mK, heaters 73.83 / 72.00 C, heater 0.845 W, losses 0.0295 W, total 15.8 s
+[02:29:47] #36   coarse_bo coarse l2_flow=0.01422  (linf=0.0409 K, branch dT=1.71e-13 K, dQ=0.00%)  P x1.04 T_heat=78.8C  t=38s  | lam=8.257, A=2.235  | best heater: heat1_s=0, heat1_l=0.4
+[02:29:47] #37   coarse_bo coarse l2_flow=0.0167  (linf=0.0338 K, branch dT=1.14e-13 K, dQ=0.00%)  P x1.03 T_heat=79.9C  t=38s  | lam=8.431, A=1.854  | best heater: heat1_s=0, heat1_l=0.4
+[02:29:47] #38   coarse_bo coarse l2_flow=0.0721  (linf=0.121 K, branch dT=1.71e-13 K, dQ=0.00%)  P x1.04 T_heat=75.5C  t=36s  | lam=9.038, A=3.178  | best heater: heat1_s=0, heat1_l=0.6
+[02:29:52] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm) [reused model]
+[02:29:52] sine_split_2d: mesh: 11016 elements
+[02:29:53] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm) [reused model]
+[02:29:53] sine_split_2d: mesh: 11208 elements
+[02:29:53] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm) [reused model]
+[02:29:53] sine_split_2d: mesh: 15504 elements
+[02:29:58] sine_split_2d: solved in 5.2 s
+[02:29:58] sine_split_2d: solved in 4.6 s
+[02:30:03] sine_split_2d: solved in 9.9 s
+[02:30:20] sine_split_2d: heater sweep: 10 positions in 21.7 s
+[02:30:20] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need -5.68e-11 mK, heaters 76.35 / 72.00 C, heater 0.837 W, losses 0.0212 W, total 7.6 s
+[02:30:22] sine_split_2d: heater sweep: 10 positions in 23.3 s
+[02:30:22] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need 0 mK, heaters 76.34 / 72.00 C, heater 0.837 W, losses 0.0214 W, total 7.6 s
+[02:30:25] sine_split_2d: heater sweep: 10 positions in 21.2 s
+[02:30:25] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need 2.27e-10 mK, heaters 73.91 / 72.00 C, heater 0.845 W, losses 0.0292 W, total 13.3 s
+[02:30:25] #39   coarse_bo coarse l2_flow=0.01935  (linf=0.0571 K, branch dT=0 K, dQ=0.00%)  P x1.04 T_heat=79.1C  t=34s  | lam=8.46, A=2.219  | best heater: heat1_s=0, heat1_l=0.4
+[02:30:25] #40   coarse_bo coarse l2_flow=0.383  (linf=0.597 K, branch dT=5.68e-14 K, dQ=0.00%)  P x1.03 T_heat=98.2C  t=29s  | lam=16.07, A=0  | best heater: heat1_s=0, heat1_l=0.1
+[02:30:25] #41   coarse_bo coarse l2_flow=0.3786  (linf=0.634 K, branch dT=1.14e-13 K, dQ=0.00%)  P x1.03 T_heat=98.3C  t=31s  | lam=16.1, A=0.5243  | best heater: heat1_s=0, heat1_l=0.1
+[02:30:32] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm) [reused model]
+[02:30:32] sine_split_2d: mesh: 14256 elements
+[02:30:32] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm) [reused model]
+[02:30:32] sine_split_2d: mesh: 16488 elements
+[02:30:32] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm) [reused model]
+[02:30:33] sine_split_2d: mesh: 13824 elements
+[02:30:40] sine_split_2d: solved in 7.5 s
+[02:30:41] sine_split_2d: solved in 9.1 s
+[02:30:42] sine_split_2d: solved in 9.6 s
+[02:31:01] sine_split_2d: heater sweep: 10 positions in 20.3 s
+[02:31:01] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need 2.27e-10 mK, heaters 74.47 / 72.00 C, heater 0.842 W, losses 0.0263 W, total 11.0 s
+[02:31:04] sine_split_2d: heater sweep: 10 positions in 22.0 s
+[02:31:04] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need 5.68e-11 mK, heaters 74.17 / 72.00 C, heater 0.843 W, losses 0.027 W, total 11.9 s
+[02:31:06] sine_split_2d: heater sweep: 10 positions in 22.8 s
+[02:31:06] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need 5.68e-11 mK, heaters 73.59 / 72.00 C, heater 0.847 W, losses 0.0312 W, total 12.9 s
+[02:31:06] #42   coarse_bo coarse l2_flow=0.06402  (linf=0.119 K, branch dT=1.14e-13 K, dQ=0.00%)  P x1.03 T_heat=80.0C  t=31s  | lam=8.752, A=1.945  | best heater: heat1_s=0, heat1_l=0.4
+[02:31:06] #43   coarse_bo coarse l2_flow=0.04115  (linf=0.0899 K, branch dT=2.27e-13 K, dQ=0.00%)  P x1.04 T_heat=78.0C  t=36s  | lam=8.01, A=2.467  | best heater: heat1_s=0, heat1_l=0.4
+[02:31:06] #44   coarse_bo coarse l2_flow=0.05704  (linf=0.1 K, branch dT=0 K, dQ=0.00%)  P x1.03 T_heat=79.5C  t=34s  | lam=7.897, A=1.77  | best heater: heat1_s=0, heat1_l=0.4
+[02:31:12] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm) [reused model]
+[02:31:12] sine_split_2d: mesh: 13032 elements
+[02:31:12] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm) [reused model]
+[02:31:12] sine_split_2d: mesh: 20040 elements
+[02:31:12] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm) [reused model]
+[02:31:13] sine_split_2d: mesh: 17832 elements
+[02:31:22] sine_split_2d: solved in 9.7 s
+[02:31:23] sine_split_2d: solved in 10.9 s
+[02:31:24] sine_split_2d: solved in 11.2 s
+[02:31:49] sine_split_2d: heater sweep: 10 positions in 26.2 s
+[02:31:49] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need -1.14e-10 mK, heaters 73.25 / 72.00 C, heater 0.854 W, losses 0.0378 W, total 13.1 s
+[02:31:51] sine_split_2d: heater sweep: 10 positions in 27.4 s
+[02:31:51] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need -1.71e-10 mK, heaters 75.20 / 72.00 C, heater 0.84 W, losses 0.0246 W, total 13.9 s
+[02:31:52] sine_split_2d: heater sweep: 10 positions in 26.9 s
+[02:31:52] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need -1.71e-10 mK, heaters 73.44 / 72.00 C, heater 0.85 W, losses 0.0338 W, total 15.0 s
+[02:31:52] #45   coarse_bo coarse l2_flow=0.01915  (linf=0.0508 K, branch dT=2.84e-13 K, dQ=0.00%)  P x1.04 T_heat=77.6C  t=42s  | lam=8.234, A=2.904  | best heater: heat1_s=0, heat1_l=0.4
+[02:31:52] #46   coarse_bo coarse l2_flow=0.02145  (linf=0.057 K, branch dT=1.71e-13 K, dQ=0.00%)  P x1.05 T_heat=76.9C  t=39s  | lam=8.205, A=3.5  | best heater: heat1_s=0, heat1_l=0.4
+[02:31:52] #47   coarse_bo coarse l2_flow=0.07118  (linf=0.13 K, branch dT=5.68e-14 K, dQ=0.00%)  P x1.03 T_heat=81.2C  t=41s  | lam=8.225, A=1.348  | best heater: heat1_s=0, heat1_l=0.4
+[02:31:57] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm) [reused model]
+[02:31:57] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm) [reused model]
+[02:31:57] sine_split_2d: mesh: 15936 elements
+[02:31:58] sine_split_2d: mesh: 17112 elements
+[02:32:06] sine_split_2d: solved in 8.1 s
+[02:32:07] sine_split_2d: solved in 9.4 s
+[02:32:23] sine_split_2d: heater sweep: 10 positions in 16.4 s
+[02:32:23] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need 5.68e-11 mK, heaters 73.78 / 72.00 C, heater 0.846 W, losses 0.0301 W, total 10.9 s
+[02:32:24] sine_split_2d: heater sweep: 10 positions in 16.5 s
+[02:32:24] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need -2.84e-10 mK, heaters 73.58 / 72.00 C, heater 0.848 W, losses 0.0323 W, total 12.4 s
+[02:32:24] #48   coarse_bo coarse l2_flow=0.01581  (linf=0.0534 K, branch dT=5.68e-14 K, dQ=0.00%)  P x1.04 T_heat=78.7C  t=27s  | lam=8.41, A=2.362  | best heater: heat1_s=0, heat1_l=0.4
+[02:32:24] #49   coarse_bo coarse l2_flow=0.02034  (linf=0.065 K, branch dT=1.14e-13 K, dQ=0.00%)  P x1.04 T_heat=78.1C  t=29s  | lam=8.431, A=2.707  | best heater: heat1_s=0, heat1_l=0.4
+[02:32:25] GP length scales (smaller = more influential): lam=0.03, A=0.36
+[02:32:25] stage 3/4: re-running 3 best coarse designs on the fine mesh
+[02:32:29] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm)
+[02:32:29] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm)
+[02:32:30] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm)
+[02:32:33] sine_split_2d: mesh: 60336 elements
+[02:32:33] sine_split_2d: mesh: 72816 elements
+[02:32:34] sine_split_2d: mesh: 67392 elements
+[02:33:02] sine_split_2d: solved in 28.2 s
+[02:33:03] sine_split_2d: solved in 29.8 s
+[02:33:04] sine_split_2d: solved in 31.2 s
+[02:33:29] sine_split_2d: heater sweep: 10 positions in 24.5 s
+[02:33:29] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need -5.68e-11 mK, heaters 74.05 / 72.00 C, heater 0.845 W, losses 0.0287 W, total 39.3 s
+[02:33:30] sine_split_2d: heater sweep: 10 positions in 26.7 s
+[02:33:30] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need -1.71e-10 mK, heaters 73.63 / 72.00 C, heater 0.848 W, losses 0.032 W, total 37.5 s
+[02:33:31] sine_split_2d: heater sweep: 10 positions in 27.1 s
+[02:33:31] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need -2.27e-10 mK, heaters 73.49 / 72.00 C, heater 0.85 W, losses 0.0345 W, total 38.2 s
+[02:33:31] #50   fine_top  fine   l2_flow=0.02057  (linf=0.0295 K, branch dT=2.27e-13 K, dQ=0.00%)  P x1.03 T_heat=76.4C  t=64s  | lam=8.611, A=2.156  | best heater: heat1_s=0, heat1_l=0.6
+[02:33:31] #51   fine_top  fine   l2_flow=0.01195  (linf=0.0381 K, branch dT=3.41e-13 K, dQ=0.00%)  P x1.04 T_heat=75.4C  t=65s  | lam=8.715, A=3.099  | best heater: heat1_s=0, heat1_l=0.6
+[02:33:31] #52   fine_top  fine   l2_flow=0.01443  (linf=0.0498 K, branch dT=5.68e-14 K, dQ=0.00%)  P x1.04 T_heat=78.2C  t=64s  | lam=8.388, A=2.65  | best heater: heat1_s=0, heat1_l=0.4
+[02:33:34] best (fine mesh, run #51): l2_flow = 0.01195 K
+[02:33:34]     lam          = 8.715 mm
+[02:33:34]     A            = 3.099 mm
+[02:33:34] re-solving the best design with field export for the plots ...
+
+MATLAB is now connected to a COMSOL Multiphysics Server at localhost:2080
+
+Run the commands below to access the COMSOL ModelUtil commands:
+import com.comsol.model.util.*
+[02:33:49] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm)
+[02:33:53] sine_split_2d: mesh: 72816 elements
+[02:34:09] sine_split_2d: solved in 16.1 s
+[02:34:10] sine_split_2d: exporting field data ...
+[02:34:11] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need 5.68e-11 mK, heaters 75.36 / 72.00 C, heater 0.862 W, losses 0.0461 W, total 29.3 s
+field data: runs/final_u2d_serp/fields/run0051_fine.json
+solved model: runs/final_u2d_serp/fields/run0051_fine.mph
+[02:34:14] field plots: runs/final_u2d_serp/fields/run0051_fine_maps.png, runs/final_u2d_serp/fields/run0051_fine_along_x.png, runs/final_u2d_serp/fields/run0051_fine_slices.png, runs/final_u2d_serp/fields/run0051_fine_outlet.png, runs/final_u2d_serp/fields/run0051_fine_profile.png, runs/final_u2d_serp/fields/run0051_fine_summary.json

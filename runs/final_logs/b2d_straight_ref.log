@@ -1,0 +1,35 @@
+results -> runs/final_b2d_straight_ref
+[01:32:00] stage 1/4: initial design, 1 coarse runs left
+[01:32:00] starting worker 0 (COMSOL port 2072, backend engine)
+
+MATLAB is now connected to a COMSOL Multiphysics Server at localhost:2072
+
+Run the commands below to access the COMSOL ModelUtil commands:
+import com.comsol.model.util.*
+[01:32:17] sine_split_2d: geometry ok: sine 12.00 mm + straight 12.00 mm, 0 pillar(s), 4 branches (inlet widths [0.979 0.521 0.521 0.979] mm)
+[01:32:25] sine_split_2d: mesh: 26280 elements
+[01:32:32] sine_split_2d: solved in 7.1 s
+[01:32:34] sine_split_2d: done: branch Q dev [0.837 -0.837 -0.837 0.837] %, branch Tb - T_need [943 -959 -959 943] mK, heaters 76.63 / 72.00 C, heater 0.967 W, losses 0.155 W, total 25.7 s
+[01:32:34] #0    init      coarse branch=0.4777  (linf=1.08 K, branch dT=0.951 K, dQ=0.84%)  P x1.18 T_heat=76.6C  t=26s  | lam=5.217
+[01:32:34] stage 3/4: re-running 1 best coarse designs on the fine mesh
+[01:32:37] sine_split_2d: geometry ok: sine 12.00 mm + straight 12.00 mm, 0 pillar(s), 4 branches (inlet widths [0.979 0.521 0.521 0.979] mm)
+[01:32:40] sine_split_2d: mesh: 104832 elements
+[01:33:10] sine_split_2d: solved in 29.6 s
+[01:33:13] sine_split_2d: done: branch Q dev [0.867 -0.867 -0.867 0.867] %, branch Tb - T_need [962 -979 -979 962] mK, heaters 76.68 / 72.00 C, heater 0.97 W, losses 0.155 W, total 39.0 s
+[01:33:13] #1    fine_top  fine   branch=0.4873  (linf=1.1 K, branch dT=0.97 K, dQ=0.87%)  P x1.19 T_heat=76.7C  t=39s  | lam=5.217
+[01:33:16] best (fine mesh, run #1): branch = 0.4873 K
+[01:33:16]     lam          = 5.217 mm
+[01:33:16] re-solving the best design with field export for the plots ...
+
+MATLAB is now connected to a COMSOL Multiphysics Server at localhost:2072
+
+Run the commands below to access the COMSOL ModelUtil commands:
+import com.comsol.model.util.*
+[01:33:41] sine_split_2d: geometry ok: sine 12.00 mm + straight 12.00 mm, 0 pillar(s), 4 branches (inlet widths [0.979 0.521 0.521 0.979] mm)
+[01:33:50] sine_split_2d: mesh: 104832 elements
+[01:34:19] sine_split_2d: solved in 28.6 s
+[01:34:21] sine_split_2d: exporting field data ...
+[01:34:23] sine_split_2d: done: branch Q dev [0.867 -0.867 -0.867 0.867] %, branch Tb - T_need [962 -979 -979 962] mK, heaters 76.68 / 72.00 C, heater 0.97 W, losses 0.155 W, total 54.6 s
+field data: runs/final_b2d_straight_ref/fields/run0001_fine.json
+solved model: runs/final_b2d_straight_ref/fields/run0001_fine.mph
+[01:34:27] field plots: runs/final_b2d_straight_ref/fields/run0001_fine_maps.png, runs/final_b2d_straight_ref/fields/run0001_fine_along_x.png, runs/final_b2d_straight_ref/fields/run0001_fine_slices.png, runs/final_b2d_straight_ref/fields/run0001_fine_outlet.png, runs/final_b2d_straight_ref/fields/run0001_fine_profile.png, runs/final_b2d_straight_ref/fields/run0001_fine_summary.json

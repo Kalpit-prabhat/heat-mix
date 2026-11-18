@@ -1,0 +1,40 @@
+results -> runs/final_u3d_straight_ref
+[03:50:31] stage 1/4: initial design, 1 coarse runs left
+[03:50:31] starting worker 0 (COMSOL port 2090, backend engine)
+
+MATLAB is now connected to a COMSOL Multiphysics Server at localhost:2090
+
+Run the commands below to access the COMSOL ModelUtil commands:
+import com.comsol.model.util.*
+[03:50:54] sine_channel: geometry ok (path length 29.0 mm, bend radius Inf mm, joint turns 0 / 0 deg)
+[03:51:03] sine_channel: mesh: 45440 elements (min quality 1.000)
+[03:51:03] sine_channel: solving flow then heat (cold start) ...
+[03:51:45] sine_channel: solved in 41.8 s
+[04:00:44] sine_channel: heater sweep: 105 heater windows in 534.9 s
+[04:00:44] sine_channel: done:outlet RMS(T - T_need) = 0.8437 K, bulk T rise 2.000 K, heater 0.82 W (x1.005), losses 0.00625 W, total 69.0 s
+[04:00:45] #0    init      coarse l2_flow=0.373  (linf=0.836 K)  P x1.01 T_heat=93.1C  t=604s  | lam=5.217  | best heater: heat_start=2, heat_len=1.2
+[04:00:45] stage 3/4: re-running 1 best coarse designs on the fine mesh
+[04:00:47] sine_channel: geometry ok (path length 29.0 mm, bend radius Inf mm, joint turns 0 / 0 deg)
+[04:00:51] sine_channel: mesh: 143136 elements (min quality 1.000)
+[04:00:51] sine_channel: solving flow then heat (cold start) ...
+[04:01:38] sine_channel: solved in 47.1 s
+[04:12:29] sine_channel: heater sweep: 105 heater windows in 649.6 s
+[04:12:29] sine_channel: done:outlet RMS(T - T_need) = 0.8468 K, bulk T rise 2.000 K, heater 0.821 W (x1.006), losses 0.00625 W, total 54.5 s
+[04:12:29] #1    fine_top  fine   l2_flow=0.3782  (linf=0.838 K)  P x1.01 T_heat=93.1C  t=704s  | lam=5.217  | best heater: heat_start=2, heat_len=1.2
+[04:12:31] best (fine mesh, run #1): l2_flow = 0.3782 K
+[04:12:31]     lam          = 5.217 mm
+[04:12:31] re-solving the best design with field export for the plots ...
+
+MATLAB is now connected to a COMSOL Multiphysics Server at localhost:2090
+
+Run the commands below to access the COMSOL ModelUtil commands:
+import com.comsol.model.util.*
+[04:12:45] sine_channel: geometry ok (path length 29.0 mm, bend radius Inf mm, joint turns 0 / 0 deg)
+[04:12:51] sine_channel: mesh: 143136 elements (min quality 1.000)
+[04:12:51] sine_channel: solving flow then heat (cold start) ...
+[04:13:38] sine_channel: solved in 47.0 s
+[04:13:40] sine_channel: exporting field data ...
+[04:13:41] sine_channel: done:outlet RMS(T - T_need) = 0.3772 K, bulk T rise 2.000 K, heater 0.851 W (x1.043), losses 0.036 W, total 60.5 s
+field data: runs/final_u3d_straight_ref/fields/run0001_fine.json
+solved model: runs/final_u3d_straight_ref/fields/run0001_fine.mph
+[04:13:44] field plots: runs/final_u3d_straight_ref/fields/run0001_fine_maps.png, runs/final_u3d_straight_ref/fields/run0001_fine_along_x.png, runs/final_u3d_straight_ref/fields/run0001_fine_slices.png, runs/final_u3d_straight_ref/fields/run0001_fine_outlet.png, runs/final_u3d_straight_ref/fields/run0001_fine_slices_u.png, runs/final_u3d_straight_ref/fields/run0001_fine_profile.png, runs/final_u3d_straight_ref/fields/run0001_fine_summary.json

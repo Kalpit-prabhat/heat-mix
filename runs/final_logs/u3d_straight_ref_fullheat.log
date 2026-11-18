@@ -1,0 +1,20 @@
+
+MATLAB is now connected to a COMSOL Multiphysics Server at localhost:2090
+
+Run the commands below to access the COMSOL ModelUtil commands:
+import com.comsol.model.util.*
+[04:13:58] sine_channel: geometry ok (path length 29.0 mm, bend radius Inf mm, joint turns 0 / 0 deg)
+[04:14:04] sine_channel: mesh: 143136 elements (min quality 1.000)
+[04:14:04] sine_channel: solving flow then heat (cold start) ...
+[04:14:51] sine_channel: solved in 47.6 s
+[04:14:53] sine_channel: exporting field data ...
+[04:14:54] sine_channel: done:outlet RMS(T - T_need) = 0.8468 K, bulk T rise 2.000 K, heater 0.821 W (x1.006), losses 0.00625 W, total 61.0 s
+field data: runs/final_u3d_straight_ref_single/fields/design_fine.json
+solved model: runs/final_u3d_straight_ref_single/fields/design_fine.mph
+runs/final_u3d_straight_ref_single/fields/design_fine_maps.png
+runs/final_u3d_straight_ref_single/fields/design_fine_along_x.png
+runs/final_u3d_straight_ref_single/fields/design_fine_slices.png
+runs/final_u3d_straight_ref_single/fields/design_fine_outlet.png
+runs/final_u3d_straight_ref_single/fields/design_fine_slices_u.png
+runs/final_u3d_straight_ref_single/fields/design_fine_profile.png
+runs/final_u3d_straight_ref_single/fields/design_fine_summary.json

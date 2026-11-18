@@ -1,0 +1,5 @@
+grid search on u2d_serp.yaml: 109 runs, 3 failed, loss l2_flow
+  grid_L0      77 ok   best #20 l2_flow=0.007385  lam=8.344, A=2  heater {'heat1_s': 0, 'heat1_l': 0.4, 'T_heater': 352.5714453500918, 'T_bulk': 345.15000000000003, 'power_clamped': False}
+  grid_Z1      18 ok   best #84 l2_flow=0.01116  lam=8.344, A=2.25  heater {'heat1_s': 0, 'heat1_l': 0.4, 'T_heater': 352.0059376292667, 'T_bulk': 345.15000000000015, 'power_clamped': False}
+  grid_Z2       8 ok   best #101 l2_flow=0.006893  lam=8.344, A=1.875  heater {'heat1_s': 0, 'heat1_l': 0.4, 'T_heater': 352.88614378095394, 'T_bulk': 345.15000000000003, 'power_clamped': False}
+  fine_top      3 ok   best #108 l2_flow=0.006338  lam=8.344, A=2.125  heater {'heat1_s': 0, 'heat1_l': 0.4, 'T_heater': 352.365646540634, 'T_bulk': 345.1500000000001, 'power_clamped': False}

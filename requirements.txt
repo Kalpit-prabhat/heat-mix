@@ -1,0 +1,8 @@
+numpy
+scipy
+scikit-learn
+pyyaml
+matplotlib
+# MATLAB Engine API for Python, version must match MATLAB R2026b (26.2.x).
+# Optional: without it set comsol.backend: subprocess in the case YAML.
+matlabengine==26.2.*

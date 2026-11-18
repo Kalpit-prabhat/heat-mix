@@ -1,0 +1,44 @@
+[03:50:31] starting worker 0 (COMSOL port 2072, backend engine)
+[03:50:31] starting worker 0 (COMSOL port 2074, backend engine)
+[03:50:31] starting worker 0 (COMSOL port 2076, backend engine)
+
+MATLAB is now connected to a COMSOL Multiphysics Server at localhost:2074
+
+Run the commands below to access the COMSOL ModelUtil commands:
+import com.comsol.model.util.*
+
+MATLAB is now connected to a COMSOL Multiphysics Server at localhost:2076
+
+Run the commands below to access the COMSOL ModelUtil commands:
+import com.comsol.model.util.*
+
+MATLAB is now connected to a COMSOL Multiphysics Server at localhost:2072
+
+Run the commands below to access the COMSOL ModelUtil commands:
+import com.comsol.model.util.*
+[03:50:54] sine_channel: geometry ok (path length 50.1 mm, bend radius 1.55 mm, joint turns 75 / -75 deg)
+[03:50:55] sine_channel: geometry ok (path length 50.1 mm, bend radius 1.55 mm, joint turns 75 / -75 deg)
+[03:50:55] sine_channel: geometry ok (path length 50.1 mm, bend radius 1.55 mm, joint turns 75 / -75 deg)
+[03:51:04] sine_channel: mesh: 75360 elements (min quality 0.146)
+[03:51:04] sine_channel: solving flow then heat (cold start) ...
+[03:51:07] sine_channel: mesh: 535104 elements (min quality 0.178)
+[03:51:07] sine_channel: solving flow then heat (cold start) ...
+[03:51:09] sine_channel: mesh: 234528 elements (min quality 0.175)
+[03:51:09] sine_channel: solving flow then heat (cold start) ...
+[03:53:54] sine_channel: solved in 169.7 s
+[03:54:21] sine_channel: heater sweep: 3 heater windows in 23.7 s
+[03:54:21] sine_channel: done:outlet RMS(T - T_need) = 0.09884 K, bulk T rise 2.000 K, heater 0.821 W (x1.006), losses 0.00691 W, total 196.7 s
+[03:54:21] #0    meshcheck coarse l2_flow=0.03038  (linf=0.169 K)  P x1.01 T_heat=82.6C  t=220s  | lam=8, A=3  | best heater: heat_start=2, heat_len=2.4
+[03:57:37] sine_channel: solved in 388.4 s
+[03:58:47] sine_channel: heater sweep: 3 heater windows in 65.1 s
+[03:58:47] sine_channel: done:outlet RMS(T - T_need) = 0.08617 K, bulk T rise 2.000 K, heater 0.822 W (x1.007), losses 0.00691 W, total 421.0 s
+[03:58:47] #0    meshcheck fine   l2_flow=0.04156  (linf=0.193 K)  P x1.01 T_heat=82.7C  t=486s  | lam=8, A=3  | best heater: heat_start=2, heat_len=2.4
+[03:59:23] sine_channel: solved in 495.2 s
+[04:00:48] sine_channel: heater sweep: 3 heater windows in 81.6 s
+[04:00:48] sine_channel: done:outlet RMS(T - T_need) = 0.0847 K, bulk T rise 2.000 K, heater 0.822 W (x1.008), losses 0.00691 W, total 525.6 s
+[04:00:48] #0    meshcheck fine   l2_flow=0.04329  (linf=0.199 K)  P x1.01 T_heat=82.8C  t=607s  | lam=8, A=3  | best heater: heat_start=2, heat_len=2.4
+
+3D serpentine mesh check (lam 8, A 3):
+  coarse 75360 el, 231 s, best l2_flow 30.4 mK;  heater 2.4: 30.4 mK;  heater 12.0: 44.7 mK;  heater 24.0: 91.7 mK
+  fine   234528 el, 497 s, best l2_flow 41.6 mK;  heater 2.4: 41.6 mK;  heater 12.0: 46.3 mK;  heater 24.0: 80.5 mK
+  ref    535104 el, 618 s, best l2_flow 43.3 mK;  heater 2.4: 43.3 mK;  heater 12.0: 44.6 mK;  heater 24.0: 77.9 mK

@@ -1,0 +1,245 @@
+results -> runs/final_u3d_serp
+[04:14:58] stage 1/4: initial design, 8 coarse runs left
+[04:14:58] starting worker 0 (COMSOL port 2070, backend engine)
+
+MATLAB is now connected to a COMSOL Multiphysics Server at localhost:2070
+
+Run the commands below to access the COMSOL ModelUtil commands:
+import com.comsol.model.util.*
+[04:15:06] starting worker 1 (COMSOL port 2071, backend engine)
+
+MATLAB is now connected to a COMSOL Multiphysics Server at localhost:2071
+
+Run the commands below to access the COMSOL ModelUtil commands:
+import com.comsol.model.util.*
+[04:15:13] starting worker 2 (COMSOL port 2072, backend engine)
+
+MATLAB is now connected to a COMSOL Multiphysics Server at localhost:2072
+
+Run the commands below to access the COMSOL ModelUtil commands:
+import com.comsol.model.util.*
+[04:15:20] starting worker 3 (COMSOL port 2073, backend engine)
+
+MATLAB is now connected to a COMSOL Multiphysics Server at localhost:2073
+
+Run the commands below to access the COMSOL ModelUtil commands:
+import com.comsol.model.util.*
+[04:15:39] sine_channel: geometry ok (path length 29.0 mm, bend radius 1.55 mm, joint turns 1 / -1 deg)
+[04:15:40] sine_channel: geometry ok (path length 32.4 mm, bend radius 1.55 mm, joint turns 38 / -38 deg)
+[04:15:40] sine_channel: geometry ok (path length 63.4 mm, bend radius 1.55 mm, joint turns 86 / 86 deg)
+[04:15:40] sine_channel: geometry ok (path length 30.1 mm, bend radius 1.55 mm, joint turns 19 / -19 deg)
+[04:15:49] sine_channel: mesh: 93120 elements (min quality 0.046)
+[04:15:49] sine_channel: solving flow then heat (cold start) ...
+[04:15:49] sine_channel: mesh: 50560 elements (min quality 0.546)
+[04:15:49] sine_channel: solving flow then heat (cold start) ...
+[04:15:50] sine_channel: mesh: 45920 elements (min quality 0.988)
+[04:15:50] sine_channel: solving flow then heat (cold start) ...
+[04:15:51] sine_channel: mesh: 48160 elements (min quality 0.802)
+[04:15:51] sine_channel: solving flow then heat (cold start) ...
+[04:16:37] sine_channel: solved in 47.1 s
+[04:16:43] sine_channel: solved in 54.8 s
+[04:16:47] sine_channel: solved in 56.8 s
+[04:17:30] sine_channel: heater sweep: 10 heater windows in 49.3 s
+[04:17:30] sine_channel: done:outlet RMS(T - T_need) = 0.8435 K, bulk T rise 2.000 K, heater 0.82 W (x1.005), losses 0.00625 W, total 74.1 s
+[04:17:42] sine_channel: heater sweep: 10 heater windows in 51.0 s
+[04:17:42] sine_channel: done:outlet RMS(T - T_need) = 0.8191 K, bulk T rise 2.000 K, heater 0.82 W (x1.005), losses 0.00625 W, total 84.2 s
+[04:17:43] sine_channel: heater sweep: 10 heater windows in 55.2 s
+[04:17:43] sine_channel: done:outlet RMS(T - T_need) = 0.5915 K, bulk T rise 2.000 K, heater 0.82 W (x1.005), losses 0.00628 W, total 80.5 s
+[04:18:00] sine_channel: solved in 131.6 s
+[04:18:43] sine_channel: heater sweep: 10 heater windows in 41.0 s
+[04:18:43] sine_channel: done:outlet RMS(T - T_need) = 0.0537 K, bulk T rise 2.000 K, heater 0.821 W (x1.007), losses 0.00736 W, total 155.0 s
+[04:18:43] #0    init      coarse l2_flow=0.4204  (linf=0.925 K)  P x1.01 T_heat=78.0C  t=135s  | lam=8.706, A=0.6464  | best heater: heat_start=2, heat_len=7.2
+[04:18:43] #1    init      coarse l2_flow=0.3271  (linf=0.691 K)  P x1.01 T_heat=75.0C  t=136s  | lam=19.79, A=3.446  | best heater: heat_start=2, heat_len=12
+[04:18:43] #2    init      coarse l2_flow=0.02124  (linf=0.151 K)  P x1.01 T_heat=72.6C  t=196s  | lam=6.746, A=3.484  | best heater: heat_start=2, heat_len=16.8
+[04:18:43] #3    init      coarse l2_flow=0.3848  (linf=0.859 K)  P x1.01 T_heat=85.5C  t=124s  | lam=19.74, A=0.09216  | best heater: heat_start=2, heat_len=2.4
+[04:18:44] sine_channel: geometry ok (path length 30.0 mm, bend radius 1.55 mm, joint turns 22 / -22 deg) [reused model]
+[04:18:45] sine_channel: mesh: 47360 elements (min quality 0.732)
+[04:18:45] sine_channel: solving flow then heat (cold start) ...
+[04:18:45] sine_channel: geometry ok (path length 29.9 mm, bend radius 1.55 mm, joint turns 16 / -16 deg) [reused model]
+[04:18:45] sine_channel: geometry ok (path length 35.7 mm, bend radius 1.55 mm, joint turns 47 / -47 deg) [reused model]
+[04:18:45] sine_channel: mesh: 47840 elements (min quality 0.828)
+[04:18:45] sine_channel: solving flow then heat (cold start) ...
+[04:18:45] sine_channel: mesh: 55040 elements (min quality 0.443)
+[04:18:45] sine_channel: solving flow then heat (cold start) ...
+[04:19:22] sine_channel: solved in 36.7 s
+[04:19:24] sine_channel: solved in 39.5 s
+[04:19:40] sine_channel: solved in 55.0 s
+[04:20:05] sine_channel: heater sweep: 10 heater windows in 40.0 s
+[04:20:05] sine_channel: done:outlet RMS(T - T_need) = 0.7908 K, bulk T rise 2.000 K, heater 0.82 W (x1.005), losses 0.00625 W, total 41.8 s
+[04:20:05] sine_channel: heater sweep: 10 heater windows in 38.7 s
+[04:20:05] sine_channel: done:outlet RMS(T - T_need) = 0.7489 K, bulk T rise 2.000 K, heater 0.82 W (x1.005), losses 0.00625 W, total 43.4 s
+[04:20:18] sine_channel: heater sweep: 10 heater windows in 36.0 s
+[04:20:18] sine_channel: done:outlet RMS(T - T_need) = 0.3731 K, bulk T rise 2.000 K, heater 0.82 W (x1.005), losses 0.00634 W, total 58.9 s
+[04:20:18] #4    init      coarse l2_flow=0.09976  (linf=0.244 K)  P x1.01 T_heat=76.9C  t=95s  | lam=11.51, A=2.377  | best heater: heat_start=2, heat_len=7.2
+[04:20:18] #5    init      coarse l2_flow=0.4677  (linf=0.995 K)  P x1.01 T_heat=75.0C  t=82s  | lam=19.2, A=1.781  | best heater: heat_start=2, heat_len=14.4
+[04:20:18] #6    init      coarse FAILED: Error using channel_walls>fillet (line 328)  | lam=6.687, A=1.945
+[04:20:18] #7    init      coarse l2_flow=0.4377  (linf=0.949 K)  P x1.01 T_heat=76.7C  t=82s  | lam=13.49, A=0.8964  | best heater: heat_start=2, heat_len=9.6
+[04:20:19] stage 2/4: coarse-mesh Bayesian optimization, 20 runs left
+[04:20:22] sine_channel: geometry ok (path length 59.9 mm, bend radius 1.55 mm, joint turns 83 / 83 deg) [reused model]
+[04:20:22] sine_channel: geometry ok (path length 55.1 mm, bend radius 1.55 mm, joint turns 79 / -79 deg) [reused model]
+[04:20:22] sine_channel: mesh: 88000 elements (min quality 0.097)
+[04:20:22] sine_channel: solving flow then heat (cold start) ...
+[04:20:22] sine_channel: geometry ok (path length 63.4 mm, bend radius 1.55 mm, joint turns 88 / 88 deg) [reused model]
+[04:20:22] sine_channel: mesh: 81440 elements (min quality 0.142)
+[04:20:22] sine_channel: solving flow then heat (cold start) ...
+[04:20:23] sine_channel: mesh: 92480 elements (min quality 0.040)
+[04:20:23] sine_channel: solving flow then heat (cold start) ...
+[04:20:23] sine_channel: geometry ok (path length 47.4 mm, bend radius 1.55 mm, joint turns 71 / 71 deg)
+[04:20:30] sine_channel: mesh: 71040 elements (min quality 0.219)
+[04:20:30] sine_channel: solving flow then heat (cold start) ...
+[04:22:36] sine_channel: solved in 126.2 s
+[04:23:10] sine_channel: solved in 167.8 s
+[04:23:50] sine_channel: heater sweep: 10 heater windows in 72.1 s
+[04:23:50] sine_channel: done:outlet RMS(T - T_need) = 0.1392 K, bulk T rise 2.000 K, heater 0.821 W (x1.006), losses 0.00691 W, total 138.5 s
+[04:24:17] sine_channel: solved in 235.3 s
+[04:24:28] sine_channel: heater sweep: 10 heater windows in 75.3 s
+[04:24:28] sine_channel: done:outlet RMS(T - T_need) = 0.08676 K, bulk T rise 2.000 K, heater 0.821 W (x1.006), losses 0.00715 W, total 172.7 s
+[04:24:49] sine_channel: solved in 266.3 s
+[04:25:10] sine_channel: heater sweep: 10 heater windows in 50.6 s
+[04:25:10] sine_channel: done:outlet RMS(T - T_need) = 0.05619 K, bulk T rise 2.000 K, heater 0.821 W (x1.006), losses 0.00719 W, total 239.7 s
+[04:25:34] sine_channel: heater sweep: 10 heater windows in 43.4 s
+[04:25:34] sine_channel: done:outlet RMS(T - T_need) = 0.05377 K, bulk T rise 2.000 K, heater 0.821 W (x1.007), losses 0.00737 W, total 270.5 s
+[04:25:34] #8    coarse_bo coarse l2_flow=0.01805  (linf=0.15 K)  P x1.01 T_heat=72.6C  t=314s  | lam=6.5, A=3.431  | best heater: heat_start=2, heat_len=16.8
+[04:25:34] #9    coarse_bo coarse l2_flow=0.02475  (linf=0.159 K)  P x1.01 T_heat=72.8C  t=248s  | lam=7.858, A=3.443  | best heater: heat_start=2, heat_len=16.8
+[04:25:34] #10   coarse_bo coarse l2_flow=0.0466  (linf=0.171 K)  P x1.01 T_heat=73.7C  t=211s  | lam=9.092, A=3.333  | best heater: heat_start=2, heat_len=12
+[04:25:34] #11   coarse_bo coarse l2_flow=0.02935  (linf=0.152 K)  P x1.01 T_heat=81.9C  t=290s  | lam=7.159, A=3.301  | best heater: heat_start=2, heat_len=2.4
+[04:25:37] sine_channel: geometry ok (path length 31.1 mm, bend radius 1.55 mm, joint turns 30 / -30 deg) [reused model]
+[04:25:37] sine_channel: mesh: 48800 elements (min quality 0.671)
+[04:25:37] sine_channel: solving flow then heat (cold start) ...
+[04:25:37] sine_channel: geometry ok (path length 46.3 mm, bend radius 1.55 mm, joint turns 70 / -70 deg) [reused model]
+[04:25:37] sine_channel: geometry ok (path length 38.1 mm, bend radius 1.55 mm, joint turns 55 / -55 deg) [reused model]
+[04:25:38] sine_channel: mesh: 58560 elements (min quality 0.376)
+[04:25:38] sine_channel: solving flow then heat (cold start) ...
+[04:25:38] sine_channel: mesh: 69440 elements (min quality 0.240)
+[04:25:38] sine_channel: solving flow then heat (cold start) ...
+[04:26:28] sine_channel: solved in 50.5 s
+[04:26:38] sine_channel: solved in 60.6 s
+[04:26:59] sine_channel: solved in 81.4 s
+[04:27:13] sine_channel: heater sweep: 10 heater windows in 43.3 s
+[04:27:13] sine_channel: done:outlet RMS(T - T_need) = 0.6596 K, bulk T rise 2.000 K, heater 0.82 W (x1.005), losses 0.00626 W, total 54.5 s
+[04:27:24] sine_channel: heater sweep: 10 heater windows in 43.5 s
+[04:27:24] sine_channel: done:outlet RMS(T - T_need) = 0.308 K, bulk T rise 2.000 K, heater 0.82 W (x1.005), losses 0.00646 W, total 64.9 s
+[04:27:40] sine_channel: heater sweep: 10 heater windows in 39.3 s
+[04:27:40] sine_channel: done:outlet RMS(T - T_need) = 0.1067 K, bulk T rise 2.000 K, heater 0.821 W (x1.006), losses 0.00674 W, total 85.4 s
+[04:27:40] #12   coarse_bo coarse FAILED: Error using channel_walls>fillet (line 328)  | lam=6.5, A=2.77
+[04:27:40] #13   coarse_bo coarse l2_flow=0.06328  (linf=0.182 K)  P x1.01 T_heat=76.4C  t=108s  | lam=10.85, A=2.749  | best heater: heat_start=2, heat_len=7.2
+[04:27:40] #14   coarse_bo coarse l2_flow=0.05012  (linf=0.184 K)  P x1.01 T_heat=78.8C  t=125s  | lam=8.283, A=2.688  | best heater: heat_start=2, heat_len=4.8
+[04:27:40] #15   coarse_bo coarse l2_flow=0.3852  (linf=0.826 K)  P x1.01 T_heat=74.7C  t=98s  | lam=20, A=2.677  | best heater: heat_start=2, heat_len=14.4
+[04:27:43] sine_channel: geometry ok (path length 36.9 mm, bend radius 1.55 mm, joint turns 52 / 52 deg) [reused model]
+[04:27:44] sine_channel: geometry ok (path length 41.3 mm, bend radius 1.55 mm, joint turns 57 / -57 deg) [reused model]
+[04:27:44] sine_channel: geometry ok (path length 62.1 mm, bend radius 1.55 mm, joint turns 83 / 83 deg) [reused model]
+[04:27:44] sine_channel: mesh: 56320 elements (min quality 0.416)
+[04:27:44] sine_channel: solving flow then heat (cold start) ...
+[04:27:44] sine_channel: mesh: 62560 elements (min quality 0.366)
+[04:27:44] sine_channel: solving flow then heat (cold start) ...
+[04:27:44] sine_channel: mesh: 91520 elements (min quality 0.096)
+[04:27:44] sine_channel: solving flow then heat (cold start) ...
+[04:27:45] sine_channel: geometry ok (path length 64.3 mm, bend radius 1.55 mm, joint turns 88 / 88 deg)
+[04:27:52] sine_channel: mesh: 93600 elements (min quality 0.039)
+[04:27:52] sine_channel: solving flow then heat (cold start) ...
+[04:29:08] sine_channel: solved in 84.3 s
+[04:29:11] sine_channel: solved in 86.5 s
+[04:30:20] sine_channel: heater sweep: 10 heater windows in 69.1 s
+[04:30:20] sine_channel: done:outlet RMS(T - T_need) = 0.3892 K, bulk T rise 2.000 K, heater 0.82 W (x1.005), losses 0.0064 W, total 88.5 s
+[04:30:24] sine_channel: heater sweep: 10 heater windows in 70.7 s
+[04:30:24] sine_channel: done:outlet RMS(T - T_need) = 0.2752 K, bulk T rise 2.000 K, heater 0.82 W (x1.005), losses 0.0065 W, total 91.1 s
+[04:30:31] sine_channel: solved in 166.9 s
+[04:30:47] sine_channel: solved in 175.3 s
+[04:31:21] sine_channel: heater sweep: 10 heater windows in 48.3 s
+[04:31:21] sine_channel: done:outlet RMS(T - T_need) = 0.05272 K, bulk T rise 2.000 K, heater 0.821 W (x1.006), losses 0.00728 W, total 171.1 s
+[04:31:34] sine_channel: heater sweep: 10 heater windows in 46.2 s
+[04:31:34] sine_channel: done:outlet RMS(T - T_need) = 0.05261 K, bulk T rise 2.000 K, heater 0.821 W (x1.007), losses 0.00741 W, total 186.2 s
+[04:31:34] #16   coarse_bo coarse l2_flow=0.01817  (linf=0.15 K)  P x1.01 T_heat=72.6C  t=232s  | lam=6.5, A=3.5  | best heater: heat_start=2, heat_len=16.8
+[04:31:34] #17   coarse_bo coarse l2_flow=0.02392  (linf=0.139 K)  P x1.01 T_heat=72.5C  t=219s  | lam=7.258, A=3.5  | best heater: heat_start=2, heat_len=19.2
+[04:31:34] #18   coarse_bo coarse l2_flow=0.1051  (linf=0.237 K)  P x1.01 T_heat=73.8C  t=162s  | lam=12.36, A=3.5  | best heater: heat_start=2, heat_len=14.4
+[04:31:34] #19   coarse_bo coarse l2_flow=0.2014  (linf=0.376 K)  P x1.01 T_heat=73.6C  t=158s  | lam=14.03, A=3.5  | best heater: heat_start=2, heat_len=16.8
+[04:31:37] sine_channel: geometry ok (path length 29.0 mm, bend radius 1.55 mm, joint turns 0 / 0 deg) [reused model]
+[04:31:37] sine_channel: geometry ok (path length 29.0 mm, bend radius 1.55 mm, joint turns 0 / 0 deg) [reused model]
+[04:31:37] sine_channel: mesh: 45440 elements (min quality 1.000)
+[04:31:37] sine_channel: solving flow then heat (cold start) ...
+[04:31:37] sine_channel: mesh: 45440 elements (min quality 1.000)
+[04:31:37] sine_channel: solving flow then heat (cold start) ...
+[04:31:38] sine_channel: geometry ok (path length 29.1 mm, bend radius 1.55 mm, joint turns 6 / 6 deg) [reused model]
+[04:31:38] sine_channel: mesh: 46880 elements (min quality 0.925)
+[04:31:38] sine_channel: solving flow then heat (cold start) ...
+[04:31:38] sine_channel: geometry ok (path length 29.5 mm, bend radius 1.55 mm, joint turns 13 / 13 deg) [reused model]
+[04:31:39] sine_channel: mesh: 47200 elements (min quality 0.848)
+[04:31:39] sine_channel: solving flow then heat (cold start) ...
+[04:32:10] sine_channel: solved in 32.7 s
+[04:32:14] sine_channel: solved in 37.1 s
+[04:32:23] sine_channel: solved in 44.7 s
+[04:32:24] sine_channel: solved in 45.8 s
+[04:32:56] sine_channel: heater sweep: 10 heater windows in 43.8 s
+[04:32:56] sine_channel: done:outlet RMS(T - T_need) = 0.8435 K, bulk T rise 2.000 K, heater 0.82 W (x1.005), losses 0.00625 W, total 36.4 s
+[04:32:58] sine_channel: heater sweep: 10 heater windows in 41.2 s
+[04:32:58] sine_channel: done:outlet RMS(T - T_need) = 0.8435 K, bulk T rise 2.000 K, heater 0.82 W (x1.005), losses 0.00625 W, total 40.4 s
+[04:33:04] sine_channel: heater sweep: 10 heater windows in 38.9 s
+[04:33:04] sine_channel: done:outlet RMS(T - T_need) = 0.8433 K, bulk T rise 2.000 K, heater 0.82 W (x1.005), losses 0.00625 W, total 48.8 s
+[04:33:05] sine_channel: heater sweep: 10 heater windows in 38.6 s
+[04:33:05] sine_channel: done:outlet RMS(T - T_need) = 0.8413 K, bulk T rise 2.000 K, heater 0.82 W (x1.005), losses 0.00625 W, total 49.9 s
+[04:33:05] #20   coarse_bo coarse l2_flow=0.3841  (linf=0.859 K)  P x1.01 T_heat=85.5C  t=80s  | lam=6.5, A=0  | best heater: heat_start=2, heat_len=2.4
+[04:33:05] #21   coarse_bo coarse l2_flow=0.3841  (linf=0.859 K)  P x1.01 T_heat=85.5C  t=82s  | lam=7.514, A=0  | best heater: heat_start=2, heat_len=2.4
+[04:33:05] #22   coarse_bo coarse l2_flow=0.4073  (linf=0.904 K)  P x1.01 T_heat=80.3C  t=89s  | lam=6.5, A=0.3448  | best heater: heat_start=2, heat_len=4.8
+[04:33:05] #23   coarse_bo coarse l2_flow=0.392  (linf=0.863 K)  P x1.01 T_heat=85.5C  t=88s  | lam=7.025, A=0.1766  | best heater: heat_start=2, heat_len=2.4
+[04:33:07] sine_channel: geometry ok (path length 38.5 mm, bend radius 1.55 mm, joint turns 56 / 56 deg) [reused model]
+[04:33:08] sine_channel: mesh: 59040 elements (min quality 0.374)
+[04:33:08] sine_channel: solving flow then heat (cold start) ...
+[04:33:08] sine_channel: geometry ok (path length 43.9 mm, bend radius 1.55 mm, joint turns 67 / 67 deg) [reused model]
+[04:33:08] sine_channel: geometry ok (path length 35.5 mm, bend radius 1.55 mm, joint turns 46 / 46 deg) [reused model]
+[04:33:08] sine_channel: geometry ok (path length 41.6 mm, bend radius 1.55 mm, joint turns 62 / 62 deg) [reused model]
+[04:33:08] sine_channel: mesh: 66240 elements (min quality 0.248)
+[04:33:08] sine_channel: solving flow then heat (cold start) ...
+[04:33:08] sine_channel: mesh: 55360 elements (min quality 0.495)
+[04:33:08] sine_channel: solving flow then heat (cold start) ...
+[04:33:08] sine_channel: mesh: 63200 elements (min quality 0.315)
+[04:33:08] sine_channel: solving flow then heat (cold start) ...
+[04:34:27] sine_channel: solved in 79.1 s
+[04:34:41] sine_channel: solved in 93.1 s
+[04:34:50] sine_channel: solved in 102.1 s
+[04:34:55] sine_channel: solved in 106.8 s
+[04:35:24] sine_channel: heater sweep: 10 heater windows in 54.1 s
+[04:35:24] sine_channel: done:outlet RMS(T - T_need) = 0.3048 K, bulk T rise 2.000 K, heater 0.82 W (x1.005), losses 0.00632 W, total 83.4 s
+[04:35:33] sine_channel: heater sweep: 10 heater windows in 49.1 s
+[04:35:33] sine_channel: done:outlet RMS(T - T_need) = 0.2185 K, bulk T rise 2.000 K, heater 0.821 W (x1.006), losses 0.00645 W, total 97.4 s
+[04:35:40] sine_channel: heater sweep: 10 heater windows in 48.0 s
+[04:35:40] sine_channel: done:outlet RMS(T - T_need) = 0.1807 K, bulk T rise 2.000 K, heater 0.821 W (x1.006), losses 0.00659 W, total 105.9 s
+[04:35:44] sine_channel: heater sweep: 10 heater windows in 47.0 s
+[04:35:44] sine_channel: done:outlet RMS(T - T_need) = 0.1608 K, bulk T rise 2.000 K, heater 0.821 W (x1.006), losses 0.00673 W, total 110.7 s
+[04:35:44] #24   coarse_bo coarse l2_flow=0.0396  (linf=0.163 K)  P x1.01 T_heat=78.9C  t=158s  | lam=9.059, A=2.904  | best heater: heat_start=2, heat_len=4.8
+[04:35:44] #25   coarse_bo coarse l2_flow=0.08018  (linf=0.217 K)  P x1.01 T_heat=73.9C  t=154s  | lam=9.422, A=2.676  | best heater: heat_start=2, heat_len=14.4
+[04:35:44] #26   coarse_bo coarse l2_flow=0.0982  (linf=0.272 K)  P x1.01 T_heat=76.4C  t=147s  | lam=9.51, A=2.276  | best heater: heat_start=2, heat_len=7.2
+[04:35:44] #27   coarse_bo coarse l2_flow=0.09012  (linf=0.204 K)  P x1.01 T_heat=76.9C  t=138s  | lam=9.988, A=1.899  | best heater: heat_start=2, heat_len=7.2
+[04:35:45] GP length scales (smaller = more influential): lam=0.19, A=0.18
+[04:35:45] stage 3/4: re-running 2 best coarse designs on the fine mesh
+[04:35:47] sine_channel: geometry ok (path length 63.4 mm, bend radius 1.55 mm, joint turns 88 / 88 deg)
+[04:35:47] sine_channel: geometry ok (path length 62.1 mm, bend radius 1.55 mm, joint turns 83 / 83 deg)
+[04:35:51] sine_channel: mesh: 289296 elements (min quality 0.023)
+[04:35:51] sine_channel: solving flow then heat (cold start) ...
+[04:35:51] sine_channel: mesh: 284592 elements (min quality 0.088)
+[04:35:51] sine_channel: solving flow then heat (cold start) ...
+[04:40:08] sine_channel: solved in 257.1 s
+[04:41:10] sine_channel: solved in 318.6 s
+[04:42:30] sine_channel: heater sweep: 10 heater windows in 139.3 s
+[04:42:30] sine_channel: done:outlet RMS(T - T_need) = 0.04052 K, bulk T rise 2.000 K, heater 0.822 W (x1.008), losses 0.00728 W, total 266.3 s
+[04:43:16] sine_channel: heater sweep: 10 heater windows in 124.4 s
+[04:43:16] sine_channel: done:outlet RMS(T - T_need) = 0.04241 K, bulk T rise 2.000 K, heater 0.822 W (x1.008), losses 0.00737 W, total 327.2 s
+[04:43:16] #28   fine_top  fine   l2_flow=0.02802  (linf=0.174 K)  P x1.01 T_heat=72.5C  t=452s  | lam=6.5, A=3.431  | best heater: heat_start=2, heat_len=16.8
+[04:43:16] #29   fine_top  fine   l2_flow=0.02739  (linf=0.158 K)  P x1.01 T_heat=72.5C  t=406s  | lam=7.258, A=3.5  | best heater: heat_start=2, heat_len=19.2
+[04:43:21] best (fine mesh, run #29): l2_flow = 0.02739 K
+[04:43:21]     lam          = 7.258 mm
+[04:43:21]     A            = 3.5 mm
+[04:43:21] re-solving the best design with field export for the plots ...
+
+MATLAB is now connected to a COMSOL Multiphysics Server at localhost:2070
+
+Run the commands below to access the COMSOL ModelUtil commands:
+import com.comsol.model.util.*
+[04:43:36] sine_channel: geometry ok (path length 62.1 mm, bend radius 1.55 mm, joint turns 83 / 83 deg)
+[04:43:42] sine_channel: mesh: 284592 elements (min quality 0.088)
+[04:43:42] sine_channel: solving flow then heat (cold start) ...
+[04:46:42] sine_channel: solved in 179.1 s
+[04:46:44] sine_channel: exporting field data ...
+[04:46:45] sine_channel: done:outlet RMS(T - T_need) = 0.05742 K, bulk T rise 2.000 K, heater 0.836 W (x1.025), losses 0.0215 W, total 194.6 s
+field data: runs/final_u3d_serp/fields/run0029_fine.json
+solved model: runs/final_u3d_serp/fields/run0029_fine.mph
+[04:46:48] field plots: runs/final_u3d_serp/fields/run0029_fine_maps.png, runs/final_u3d_serp/fields/run0029_fine_along_x.png, runs/final_u3d_serp/fields/run0029_fine_slices.png, runs/final_u3d_serp/fields/run0029_fine_outlet.png, runs/final_u3d_serp/fields/run0029_fine_slices_u.png, runs/final_u3d_serp/fields/run0029_fine_profile.png, runs/final_u3d_serp/fields/run0029_fine_summary.json

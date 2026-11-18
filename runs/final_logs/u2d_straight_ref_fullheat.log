@@ -1,0 +1,18 @@
+
+MATLAB is now connected to a COMSOL Multiphysics Server at localhost:2070
+
+Run the commands below to access the COMSOL ModelUtil commands:
+import com.comsol.model.util.*
+[02:19:42] sine_split_2d: geometry ok: sine 24.00 mm + straight 2.50 mm, 0 pillar(s), 1 branches (inlet widths 3 mm)
+[02:19:46] sine_split_2d: mesh: 44064 elements
+[02:19:52] sine_split_2d: solved in 6.4 s
+[02:19:54] sine_split_2d: exporting field data ...
+[02:19:54] sine_split_2d: done: branch Q dev 0 %, branch Tb - T_need 1.71e-10 mK, heaters 76.35 / 72.00 C, heater 0.837 W, losses 0.0212 W, total 18.4 s
+field data: runs/final_u2d_straight_ref_single/fields/design_fine.json
+solved model: runs/final_u2d_straight_ref_single/fields/design_fine.mph
+runs/final_u2d_straight_ref_single/fields/design_fine_maps.png
+runs/final_u2d_straight_ref_single/fields/design_fine_along_x.png
+runs/final_u2d_straight_ref_single/fields/design_fine_slices.png
+runs/final_u2d_straight_ref_single/fields/design_fine_outlet.png
+runs/final_u2d_straight_ref_single/fields/design_fine_profile.png
+runs/final_u2d_straight_ref_single/fields/design_fine_summary.json

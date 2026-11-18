@@ -1,0 +1,8 @@
+{
+  "kernel": "0.962**2 * Matern(length_scale=[0.192, 0.177], nu=2.5) + WhiteKernel(noise_level=1e-06)",
+  "length_scales": {
+    "lam": 0.1924782016280999,
+    "A": 0.1773277949881534
+  },
+  "note": "length scales in unit-cube coordinates; smaller = objective more sensitive to that parameter; > ~3 means practically irrelevant"
+}

@@ -1,0 +1,16 @@
+[01:31:59] stage A: 2D references (ETA ~45 min)
+[02:19:58]   presplit plot: runs/final_b2d_straight_ref/fields/run0001_fine_presplit.png
+[02:19:59]   presplit plot: runs/final_b2d_straight/fields/run0016_fine_presplit.png
+[02:19:59] stage A done
+[02:19:59] stage B: 2D unbranched BO (ETA ~25 min)
+[02:34:14] stage B done
+[02:34:14] stage C: 2D unbranched grids (ETA ~30 min)
+[02:57:45] stage C done
+[02:57:45] stage D: 2D branched BO (ETA ~1 h)
+[03:50:30]   presplit plot: runs/final_b2d_sine/fields/run0150_fine_presplit.png
+[03:50:30]   presplit plot: runs/final_b2d_serp/fields/run0150_fine_presplit.png
+[03:50:30] stage D done
+[03:50:30] stage E: 3D straight reference + 3D mesh check (ETA ~1.5 h)
+[04:14:58] stage E done
+[04:14:58] stage F: 3D serpentine BO (ETA ~2-3 h)
+[04:46:48] stage F done - all runs finished

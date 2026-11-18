@@ -1,0 +1,9 @@
+# saved COMSOL models (large; rebuild with: python -m comsol_opt fields runs/<run>)
+*.mph
+
+# Python
+.venv/
+__pycache__/
+
+# per-worker scratch folders of a run
+runs/**/work/
